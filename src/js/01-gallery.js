@@ -1,6 +1,7 @@
 // Add imports above this line
 import SimpleLightbox from 'simplelightbox';
 import { galleryItems } from './gallery-items.js';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 // Change code below this line
 const gallery = document.querySelector('.gallery');
