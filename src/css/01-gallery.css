@@ -4,9 +4,7 @@
 }
 
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  height: 80%;
+  display: grid;
   max-width: 1140px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-auto-rows: 240px;
